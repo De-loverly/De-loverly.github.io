@@ -1,417 +1,506 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-		<link rel="stylesheet" href="css/resume.css" />
-		<link rel="stylesheet" href="css/jquery.fullPage.css" />
-		<script src="js/jquery.js"></script>
-		<script src="js/easing.js"></script>
-		<script src="js/jquery.fullPage.js"></script>
-		<script src="js/resume.js"></script>
-	</head>
-	<body>
-		<!-- header navigation -->
-<header>
-	<div id="logo">
-		<div id="header_img"><img src="img/logo.jpg" alt="" /></div>
-		<div id="header_p">
-			<p id="header_p1">F2E</p>
-			<p id="header_p2">个人简历</p>
-		</div>
-	</div>
-	<nav>
-		<ul>
-			<li><a href="">首页</a></li>
-			<li><a href="">随笔</a></li>
-			<li><a href="">积淀</a></li>
-			<li><a href="">关于</a></li>
-		</ul>
-	</nav>
-</header>
-<!-- header navigation end -->
-<!-- aside navigation -->
-<aside>
-		<a href="#page1"><b>首页</b></a>
-		<a href="#page2"><b>关于我</b></a>
-		<a href="#page3"><b>专业技能</b></a>
-		<a href="#page4"><b>我的经历</b></a>
-		<a href="#page5"><b>我的作品</b></a>
-		<a href="#page6"><b>联系我</b></a>
-</aside>
-<!-- aside navigation end -->
-<!-- home page -->
-<div id="dowebok">
-	<!-- home -->
-	<div class="section one">
-		<div id="home">
-			<div id="home_content">
-				<div id="home_head">
-					<div id="home_head_content">
-						<img src="img/photo1.jpg" id="home_photo1" alt="" />
-						<img src="img/photo2.jpg" id="home_photo2" alt="" />
-					</div>
-				</div>
-				<div id="home_info">
-					<p id="home_info1">生活是一种绵延不绝的渴望,渴望不断上升,变得更伟大而高贵。</p>
-					<div id="home_info_box">
-						<p id="home_info2">我叫陈璐瑶</p>
-						<p id="home_info3">21岁</p>
-						<p id="home_info4">一名前端研发工程师</p>
-						<p id="home_info5">1773954924@qq.com</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- home end -->
-	<!-- about -->
-	<div class="section two">
-		<div id="about">
-			<div id="about_content">
-				<div class="title">
-					<h1>关于我</h1>
-				</div>
-				<div id="about_list_content">
-					<div class="about_list" id="about_list1">
-						<div class="about_list_eg" id="about_en_edu">education</div>
-						<div class="about_list_cn" id="about_cn_edu">学历<p>专科</p></div>
-					</div>
-                    <div class="about_list">
-                        <div class="about_list_eg" id="about_en_age">age</div>
-                        <div class="about_list_cn" id="about_cn_age">年龄<p>21岁</p></div>
-                    </div>
-                    <div class="about_list">
-                        <div class="about_list_eg" id="about_en_loc">location</div>
-                        <div class="about_list_cn" id="about_cn_loc">坐标<p>长治</p></div>
-                    </div>
-                    <div class="about_list">
-                        <div class="about_list_eg" id="about_en_sta">status</div>
-                        <div class="about_list_cn" id="about_cn_sta">状态<p>求职</p></div>
-                    </div>
-				</div>
-				<div id="about_info">
-					<p>即将在2017年毕业,大学期间学习了网页设计</p>
-					<p>喜欢优雅的代码，代码强迫症患者</p>
-					<p>AngularJS ReactJs VueJs</p>
-					<p>层出不穷的框架让人兴奋，而不同框架背后的思路却在逐渐统一</p>
-				</div>
-			</div>
-		</div>
-	</div>
-    <!-- about end -->
-    <!-- skill -->
-    <div class="section three">
-		<div id="skill">
-			<div id="skill_content">
-				<div class="title">
-					<h1>专业技能</h1>
-				</div>
-				<div id="skill_info">
-					<p>前端的学习需要持之以恒，知识深度与广度都很重要。而前端开发的重中之重就是原生javascript的理解，而如今的思路必需条理清晰。</p>
-				</div>
-                <div id="skill_list">
-                    <div class="skill_list_content" id="skill_list2">
-                        <div class="skill_icon" id="skill_icon2"></div>
-                        <div class="skill_name">HTML</div>
-                        <div class="skill_flag"></div>
-                        <div class="skill_int" id="skill_int2">
-                        	<ul>
-                        		<li>深刻理解Web标准</li>
-                        		<li>熟练运用html标签</li>
-                        		<li>熟悉xml及xhtml标记语言</li>
-                        		<li>掌握html5如SVG，localstorage新特性</li>
-                        	</ul>
-                        </div>
-                    </div>
-                    <div class="skill_list_content" id="skill_list3">
-                        <div class="skill_icon" id="skill_icon3"></div>
-                        <div class="skill_name">CSS</div>
-                        <div class="skill_flag"></div>
-                        <div class="skill_int" id="skill_int3">
-                        	<ul>
-                        		<li>熟练运用css及css3新属性</li>
-                        		<li>注重浏览器兼容性，熟悉常见的css hack（兼容至IE8）</li>
-                        		<li>掌握bootstrap框架及源码的实现</li>
-                        		<li>掌握css预编译器Less及Sass</li>
-                        	</ul>
-                        </div>
-                    </div>
-                    <div class="skill_list_content" id="skill_list4">
-                        <div class="skill_icon" id="skill_icon4"></div>
-                        <div class="skill_name">JavaScript</div>
-                        <div class="skill_flag"></div>
-                        <div class="skill_int" id="skill_int4">
-                        	<ul>
-                        		<li>掌握jQuery</li>
-                        		<li>掌握原生JS的编程</li>
-                        		<li>注重JavaScript性能优化</li>
-                        		<li>正在学习ES6</li>
-                        	</ul>
-                        </div>
-                    </div>
-                    <div class="skill_list_content" id="skill_list1">
-                        <div class="skill_icon" id="skill_icon1"></div>
-                        <div class="skill_name">其他</div>
-                        <div class="skill_flag"></div>
-                        <div class="skill_int" id="skill_int1">
-                        	<ul>
-                        		<li>熟练掌握响应式布局</li>
-                        		<li>熟练的sass指令编写</li>
-                        		<li>掌握页面与后台的链接li>
-                        		<li>了解各个浏览器的兼容性问题</li>
-                        	</ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- skill end -->
-    <!-- experience -->
-    <div class="section four">
-    	<div id="exp">
-        	<div id="exp_content">
-        		<div class="title">
-                	<h1>我的经历</h1>
-                </div>
-                <div id="exp_info" class="exp_scale"></div>
-                <div id="exp_list_slider">
-                	<div id="exp_list_slider_content" class="exp_scale">
-                        <div id="exp_list_content">
-                            <div class="exp_list">
-                                <div class="exp_list_left">
-                               		<div id="exp_list_left1">
-                                        <dl>
-                                            <dt>壹零陆文化传播有限责任公司</dt>
-                                            <dd class="exp_list_time">2014年3月~2014年9月</dd>
-                                            <dd>网络部（实习）</dd>
-                                            <dd>负责网站后台维护，微博、微信等新媒体创意撰写，营销和推广</dd>
-                                            <dd>负责百度PPC后台调整</dd>
-                                            <dd>获得<a href="#" class="md-trigger" data-modal="modal-1">最佳新人奖</a></dd>
-                                            <dd>同期工作之余开始<a href="#" class="md-trigger" data-modal="modal-2">系统性的自学web前端各项技术</a></dd>
-                                        </dl>
-                                    </div>
-                                </div>
-                        	</div>
-                        	<!--<div class="exp_list">
-                                <div class="exp_list_left">
-                                	<div id="exp_list_left2">
-                                        <dl>
-                                            <dt>四川卓煌企业管理有限公司</dt>
-                                            <dd class="exp_list_time">2014年9月~2015年7月</dd>
-                                            <dd>管理部</dd>
-                                            <dd>负责网站后台维护及几个企业公司的官网开发</dd>
-                                            <dd>负责百度竞价操作及seo优化</dd>
-                                            <dd>同期工作之余提升自己原生JS的编码能力</dd>
-                                        </dl>
-                                    </div>
-                            	</div>
-                        	</div>
-                            <div class="exp_list">
-                                <div class="exp_list_left">
-                                    <div id="exp_list_left3">
-                                        <dl>
-                                            <dt>成都兰途网络科技有限公司</dt>
-                                            <dd class="exp_list_time">2015年7月~现在</dd>
-                                            <dd>前端技术部</dd>
-                                            <dd>负责快速构建高质量移动app页面</dd>
-                                            <dd>用less预编译css，gulp进行自动化构建</dd>
-                                            <dd>使用原生JS+angularJS进行前端开发</dd>
-                                            <dd>使用git svn进行版本控制，Phonegap/Cordova进行app打包</dd>
-                                        </dl>
-                                    </div>
-                                </div>
-                            </div>-->
-                        </div>
-                    <!--<div id="exp_list_to">
-                    	<div id="exp_list_toleft"><img src="img/exp_list_toleft.png" /></div>
-                    	<div id="exp_list_toright"><img src="img/exp_list_toright.png" /></div>
-                    </div>-->
-                    </div>
-                    <!--<div id="exp_timeline" class="exp_scale">
-                    	<div>
-                            <a href="#" title="2014年3月~2014年9月"></a>
-                            <a href="#" title="2014年9月~2015年7月"></a>
-                            <a href="#" title="2015年7月~现在"></a>
-                        </div>
-                    </div>             -->
-                </div>
-            </div>
-        </div>
-    </div> 
-    <!-- experience end -->
-    <!-- demo -->
-    <div class="section five">
-    	<div id="demo">
-        	<div id="demo_content">
-            	<div class="title">
-                	<h1>我的作品</h1>
-                </div>
-                <div id="demo_content_list">
-                    <ul class="demo_box">
-                    	<li class="demo_scale">
-                            <div class="demo_box_content">
-                            	<div class="demo_box_hover">
-                                    <p class="demo_box_title">DEMO:京东</p>
-                                    <span class="demo_box_hover_icon">
-                                        <a href="chenluyao.duapp.com/jd/JD.html" target="_blank" class="demo_box_link">
-                                            <img src="img/demo-link.png" alt="" />
-                                        </a>
-                                    </span>
-                                </div>
-                                <img src="img/demo_box1.jpg" alt="" class="demo_box_bg"/>
-                            </div>
-                        </li>
-                        <li class="demo_scale">
-                            <div class="demo_box_content">
-                                <div class="demo_box_hover">
-                                    <p class="demo_box_title">DEMO:银泰</p>
-									<span class="demo_box_hover_icon">
-										<a href="chenluyao.duapp.com/yt/YTW.html" target="_blank" class="demo_box_link">
-											<img src="img/demo-link.png" alt="" />
-										</a>
-									</span>
-								</div>
-								<img src="img/demo_box2.jpg" alt="" class="demo_box_bg"/>
-							</div>
-                        </li>
-                        <li class="demo_scale">
-							<div class="demo_box_content">
-                            	<div class="demo_box_hover">
-									<p class="demo_box_title">DEMO:中国移动</p>
-                                    <span class="demo_box_hover_icon">
-                                    	<a href="chenluyao.duapp.com/zgyd/zgyd.html">
-											<img src="img/demo-link.png" alt="" />
-                                        </a>
-                                    </span>
-                                </div>
-								<img src="img/demo_box3.jpg" alt="" class="demo_box_bg"/>
-                            </div>
-                        </li>
-                        <li class="demo_scale">
-							<div class="demo_box_content">
-                            	<div class="demo_box_hover">
-                                	<p class="demo_box_title">DEMO:国美</p>
-                                    <span class="demo_box_hover_icon">
-                                    	<a href="chenluyao.duapp.com/guomei/guomei.html" target="_blank" class="demo_box_link">
-											<img src="img/demo-link.png" alt="" />
-                                        </a>
-                                    </span>
-                                </div>
-								<img src="img/demo_box4.jpg" alt="" class="demo_box_bg"/>
-                            </div>
-                        </li>
-                    </ul>
-				</div> 
-                <div id="demo_info" class="demo_scale">
-                    <p>这是我的部分demo。</p>
-                    <p>更多demo请移步<a href="#" class="md-trigger" data-modal="modal-3">这里</a>。</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- demo end -->
-    <!-- contact -->
-	<div class="section six">
-		<div id="contact">
-			<div id="contact_content">
-				<div class="title">
-					<h1>联系我</h1>
-				</div>
-                <div id="contact_head">
-					<div id="contact_head1">灵感 代码 梦想 未来</div>
-                    <div id="contact_head2">
-                    	<span>inspiration</span>
-                        <span>code</span>
-                        <span>dream</span>
-                        <span>future</span>
-                    </div>
-                </div>
-                <div id="contact_info" class="contact_scale">
-                    <ul>
-                    	<li>学习是一个充实愉悦的过程</li>
-                    	<li>前端更贴近用户，这种体验非常美妙</li>
-                    	<li>热爱HTML，也热爱一切美好的事物</li>
-                    	<li>行路有良友，便是捷径</li>
-                    	<li>带上我吧，一起看到更大的世界</li>
-                    </ul>
-                </div>
-                <!--<div id="contact_way">
-					<div id="contact_message1" class="contact_message contact_scale">follow me</div>
-                    <div id="contact_form">
-                        梦想成为前端工程师？<br/>
-                        前端自学迷茫？<br/>
-                        前端面试会问什么？<br/>
-                        想学习该简历怎么制作？<br/><br/>
-                        QQ小群：<a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=959d5b7e9bab932c87cdd68372cfefd772293deaeceaba3e015ba35463200fe5">Fe.d小分队</a><br/><br/>
-                        互相学习交流，共同进步O(∩_∩)O~
-                    </div>
-                    <div id="contact_message2" class="contact_message">谢谢</div>
-                </div>-->
-            </div>
-            <footer class="contact_scale">
-				<div class="contact_scale footer">
-                    <a href="http://weibo.com/u/3128849075" target="_blank">微博</a>|
-                    <a href="http://zhihu.com/people/ni-kan-yun-du-bai-le" target="_blank">知乎</a>|
-                    <a href="https://www.douban.com/people/153023892" target="_blank">豆瓣</a>
-                </div>
-				<div class="contact_scale footer">All Rights Reserved&nbsp;</div>
-				<div class="contact_scale footer"><a href="http://www.miitbeian.gov.cn/" target="_blank">蜀ICP备15021330号</a>&nbsp;Copyright &copy; 2016 - 2017</div>
-			</footer>
-        </div>
-	</div>
-    <!-- contact end -->
-</div>
-<!-- home page end -->
-<!-- pop layer -->
-<div class="md-modal md-effect-11" id="modal-1">
-	<div class="md-content">
-		<h3>小黄人O(∩_∩)O~</h3>
-		<div>
-			<img src="img/Minions.jpg" alt="" />
-			<button class="md-close">明白了</button>
-		</div>
-	</div>
-</div>
-<div class="md-modal md-effect-13" id="modal-2">
-	<div class="md-content">
-		<h3>学习路线</h3>
-		<div class="modal-learn">
-           	<p>学习用到的书籍</p>
-            <ul>
-                <li>《html5+css3基础教程（第七版）》</li>
-                <li>《css揭秘》</li>
-                <li>《JavaScript DOM编程艺术（第二版）》</li>
-                <li>《锋利的jQuery（第二版）》</li>
-                <li>《JavaScript高级程序设计（第三版）》</li>
-                <li>《JavaScript权威指南》</li>
-            </ul>
-			<button class="md-close">明白了</button>
-		</div>
-	</div>
-</div>
-<!--<div class="md-modal md-effect-11" id="modal-3">
-    <div class="md-content">
-        <h3>移动APP：兰途校园</h3>
-        <div class="modal-example">
-            <p>已上线学校</p>
-            <ul>
-                <li><span><a href="https://app.cufe.edu.cn/" target="_blank">中央财经大学</a></span></li>
-                <li><span><a href="https://app.bjtu.edu.cn/getapp/" target="_blank">北京交通大学</a></span></li>
-                <li><span><a href="https://bhna.buaa.edu.cn/bhna/" target="_blank">北京航空航天大学</a></span></li>
-                <li><span><a href="https://app.nacta.edu.cn/" target="_blank">中国戏曲学院</a></span></li>
-                <li><span><a href="https://download.haust.edu.cn/haust/getApp/" target="_blank">河南科技大学</a></span></li>
-                <li><span><a href="http://app.bisu.edu.cn/" target="_blank">北京第二外国语大学</a></span></li>
-                <li><span><a href="http://app.swpu.edu.cn/" target="_blank">西南石油大学</a></span></li>
-            </ul>
-            <p>更多在建...</p>
-            <button class="md-close">明白了</button>
-        </div>
-    </div>
-</div>-->
-<div class="md-overlay"></div>
-<!-- pop layer -->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Miss.Chen LuYao</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+        <link rel="stylesheet" href="http:////at.alicdn.com/t/font_e1tdzkfvnnlv7vi.css" />
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <div class="site-bg"></div>
+        <div class="site-bg-overlay"></div>
 
-	</body>
+        <!-- TOP HEADER -->
+        <div class="top-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <p class="phone-info">Call me: <a href="#">157 3518 2699</a></p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="social-icons">
+                            <ul>
+                                <li><a href="#" class="fa iconfont">&#xe6bd;</a></li>
+                                <li><a href="#" class="fa iconfont">&#xe641;</a></li>
+                                <li><a href="#" class="fa iconfont">&#xe642;</a></li>
+                                <li><a href="#" class="fa iconfont">&#xe643;</a></li>
+                                <li><a href="#" class="fa iconfont">&#xe640;</a></li>
+                                <li><a href="https://De-loverly.github.io/todo" class="fa">
+                                    Work Plan
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- .top-header -->
+
+
+        <div class="visible-xs visible-sm responsive-menu">
+            <a href="#" class="toggle-menu">
+                <i class="fa iconfont">&#xe623;</i> Show Menu
+            </a>
+            <div class="show-menu">
+                <ul class="main-menu">
+                    <li>
+                        <a class="show-1 active homebutton" href="#"><i class="fa  iconfont">&#xe645;</i>Home</a>
+                    </li>
+                    <li>
+                        <a class="show-2 aboutbutton" href="#"><i class="fa iconfont">&#xe646;</i>About Me</a>
+                    </li>
+                    <li>
+                        <a class="show-3 projectbutton" href="#"><i class="fa iconfont">&#xe6ed;</i>Gallery</a>
+                    </li>
+                    <li>
+                        <a class="show-5 contactbutton" href="#"><i class="fa iconfont">&#xe647;</i>Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+		<div class="copyrights">Collect from </div>
+        <div class="container" id="page-content">
+            <div class="row">
+
+
+                
+                <div class="col-md-9 col-sm-12 content-holder">
+                    <!-- CONTENT -->
+                    <div id="menu-container">
+                        
+                        <div class="logo-holder logo-top-margin">
+                            <a href="#" class="site-brand"><img src="images/logo.png" alt=""></a>
+                        </div>
+                        
+                        
+                        <div id="menu-1" class="homepage home-section text-center">
+                            <div class="welcome-text">
+                                <h2>Hello, Welcome to <strong>STARSHINE</strong></h2>
+                                <p class="p1">I'm Miss.ChenLuYao.<span class="orange">STARSHINE </span> is my <span class="green"> Personal Website.</span> Youth is not a time of life, it is a state of mind. Even if only a faint stars, also want to have been forward.Please tell your friends about my Personal Website. Thank you.</p>
+
+                                 <p class="p2">欢迎访问我的个人网站，我是陈璐瑶，是一名前端工程师。<span class="orange">STARSHINE </span> 是我的 <span class="green">个人网站。</span> 青春不是一段年华，而是一种心境。哪怕只有微弱的星光，也要一直向前。欢迎更多的朋友关注我的网站。谢谢！</p>
+                                <form action="#" method="get" class="subscribe-form">
+                                    <div class="row">
+                                        <fieldset class="col-md-offset-2 col-md-6">
+                                            <input name="subscribe-email" type="email" class="email" id="subscribe-email" placeholder="Write your email here..">
+                                        </fieldset>
+                                        <fieldset class="col-md-4 button-holder">
+                                            <input name="submit" type="submit" class="button default" id="submit" value="Submit">
+                                        </fieldset>
+                                    </div>
+                                    <p class="subscribe-text p1">Please subscribe your email for latest updates!</p>
+                                    
+                                </form>
+                            </div>
+                        </div>
+
+                        <div id="menu-2" class="content about-section">
+                            <div class="row">
+                                <div class="col-md-8 col-sm-8">
+                                    <div class="box-content profile">
+                                        <h3 class="widget-title">Learn about me</h3>
+                                        <div class="profile-thumb">
+                                            <img src="images/88.jpg" alt="">
+                                        </div>
+                                        <div class="profile-content">
+                                            <h5 class="profile-name">Miss.Chen</h5>
+                                            <span class="profile-role">Web Engineer</span> <p><a rel="nofollow" href="#">Unsplash.com</a> <br>
+                                            至今，21岁，学历，大专，出生于山西省长治市长子县。现居住于太原，所学专业是计算机应用电子技术。
+                                            <br></br>
+											If you smile when no one else is around, you really mean it. <!-- <a rel="nofollow" href="#/font-awesome-icon-world-map/">Font Awesome</a> (version 4). Example: <span class="blue">&lt;i class=&quot;fa fa-refresh&quot;&gt;&lt;/i&gt;</span> --></p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="box-content">
+                                        <h3 class="widget-title">Work Background</h3>
+                                        <p>2015-9~2016-6  就职于山西泰升科技有限公司，期间担任前端工程师。<br>上线项目：伊莎美尔（化妆品线上销售）
+                                           http://www.isamell.com/  <br>  
+                                           目前:寻觅中
+                                        </p>
+                                        <div class="about-social">
+                                            <ul>
+                                                <li><a href="#" class="fa iconfont">&#xe6bd;</a></li>
+                                                <li><a href="#" class="fa iconfont">&#xe643;</a></li>
+                                                <li><a href="#" class="fa iconfont">&#xe642;</a></li>
+                                                <li><a href="#" class="fa iconfont">&#xe640;</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-5 col-sm-5">
+                                    <div class="box-content">
+                                        <h3 class="widget-title">Working</h3>
+                                        <div class="project-item">
+                                            <img src="images/7.jpg" alt="">
+                                            <div class="project-hover">
+                                                <h4>Great Nature Capture</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-7 col-sm-7">
+                                    <div class="box-content">
+                                        <h3 class="widget-title">My Technical Skills</h3>
+                                        <ul class="progess-bars">
+                                            <li>
+                                                <span>HTML5 CSS3 </span>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <span>Javascript Jquery</span>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <span>Angular</span>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 93%;"></div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <span>Ajax</span>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="menu-3" class="content gallery-section">
+                            <div class="box-content">
+                                <h3 class="widget-title">Past Projects</h3>
+                                <div class="row row1">
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        <a href="https://De-loverly.github.io/todo">
+                                            <img src="images/111.jpg" alt=""></a>
+                                            <div class="project-hover">
+                                                <h4>todos(html5 移动端)</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        <a href="https://zhaoxin11264828.github.io/iCloud">
+                                            <img src="images/222.jpg" alt=""></a>
+                                            <div class="project-hover">
+                                                <h4>iCloud(angular)</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        <a href="https://De-loverly.github.io/guomei">
+                                            <img src="images/333.jpg" alt=""></a>
+                                            <div class="project-hover">
+                                                <h4>国美在线(html css jQuery)</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        <a href="https://De-loverly.github.io/zgyd">
+                                            <img src="images/444.jpg" alt=""></a>
+                                            <div class="project-hover">
+                                                <h4>移动(html css js)</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        <a href="https://De-loverly.github.io/JD">
+                                            <img src="images/555.jpg" alt=""></a>
+                                            <div class="project-hover">
+                                                <h4>京东(html css js)</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        <a href="https://De-loverly.github.io/ytw">
+                                            <img src="images/666.jpg" alt=""></a>
+                                            <div class="project-hover">
+                                                <h4>银泰(html css js)</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                                <div class="project-pages">
+                                    <ul>
+                                        <li><a href="#">html</a></li>
+                                        <li><a href="#">css</a></li>
+                                        <li><a href="#">javascript</a></li>
+                                        <li><a href="#">jquery</a></li>
+                                        <li><a href="#">ajax</a></li>
+                                        <li><a href="#">angular</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div id="menu-3" class="content gallery-section">
+                            <div class="box-content">
+                                <h3 class="widget-title">Past Projects</h3>
+                               
+                          <div class="row row2">
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        <a href="https://De-loverly.github.io/students">
+                                            <img src="images/777.jpg" alt=""></a>
+                                            <div class="project-hover">
+                                                <h4>学生信息管理(ajax js)</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        <a href="https://De-loverly.github.io/baidu">
+                                            <img src="images/888.jpg" alt=""></a>
+                                            <div class="project-hover">
+                                                <h4>百度舆情(fullpage css3)</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        <a href="https://De-loverly.github.io/music">
+                                            <img src="images/999.jpg" alt=""></a>
+                                            <div class="project-hover">
+                                                <h4>音乐播放器(html5-audio 移动端)</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        <a href="https://De-loverly.github.io/time">
+                                            <img src="images/11112.jpg" alt=""></a>
+                                            <div class="project-hover">
+                                                <h4>钟表(html5-canvas)</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        <a href="https://De-loverly.github.io/saolei">
+                                            <img src="images/2222.jpg" alt=""></a>
+                                            <div class="project-hover">
+                                                <h4>扫雷(jquery)</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        <a href="https://De-loverly.github.io/wuziqi">
+                                            <img src="images/3333.jpg" alt=""></a>
+                                            <div class="project-hover">
+                                                <h4>五子棋(html5-canvas)</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                                <div class="project-pages">
+                                    <ul>
+                                        <li><a href="#">html5</a></li>
+                                        <li><a href="#">css3</a></li>
+                                        <li><a href="#">jquery</a></li>
+                                        <li><a href="#">ajax</a></li>
+                                        <li><a href="#">fullpage</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div id="menu-3" class="content gallery-section">
+                            <div class="box-content">
+                                <h3 class="widget-title">Past Projects</h3>
+                               
+                          <div class="row row2">
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        <a href="https://De-loverly.github.io/apple">
+                                            <img src="images/4444.jpg" alt=""></a>
+                                            <div class="project-hover">
+                                                <h4>苹果页面(响应式)</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        <a href="https://De-loverly.github.io/weixin">
+                                            <img src="images/6666.jpg" alt=""></a>
+                                            <div class="project-hover">
+                                                <h4>移动端微信(angular)</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        <a href="https://De-loverly.github.io/zhihu">
+                                            <img src="images/7777.jpg" alt=""></a>
+                                            <div class="project-hover">
+                                                <h4>移动端知乎(angular)</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        <a href="#">
+                                            <img src="images/8888.jpg" alt=""></a>
+                                            <div class="project-hover">
+                                                <h4>扁平化图标</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        <a href="#">
+                                            <img src="images/9999.jpg" alt=""></a>
+                                            <div class="project-hover">
+                                                <h4>2.5D图标</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        <a href="#">
+                                            <img src="images/11111.jpg" alt=""></a>
+                                            <div class="project-hover">
+                                                <h4>拟物</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                                <div class="project-pages">
+                                    <ul>
+                                        <li><a href="#">html5</a></li>
+                                        <li><a href="#">css3</a></li>
+                                        <li><a href="#">swiper</a></li>
+                                        <li><a href="#">bootstrap</a></li>
+                                        <li><a href="#">angular</a></li>
+                                        <li><a href="#">materialize</a></li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div id="menu-4" class="content contact-section">
+                            <div class="row">
+                                <div class="col-md-8 col-sm-8">
+                                    <div class="box-content">
+                                        <h3 class="widget-title">Send Me A Message</h3>
+                                        <form class="contact-form">
+                                            <fieldset>
+                                                <input type="text" class="name" id="name" placeholder="Name...">
+                                            </fieldset> 
+                                            <fieldset>
+                                                <input type="email" class="email" id="email" placeholder="Email...">
+                                            </fieldset> 
+                                            <fieldset>
+                                                <input type="text" class="subject" id="subject" placeholder="Subject...">
+                                            </fieldset>
+                                            <fieldset>
+                                                <textarea name="message" id="message" cols="30" rows="4" placeholder="Message.."></textarea>
+                                            </fieldset>
+                                            <fieldset>
+                                                <input type="submit" class="button" id="button" value="Send Message">
+                                            </fieldset>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="box-content">
+                                        <h3 class="widget-title">Contact Me</h3>
+                                        <p>Call:15735182699   email:15735182699@163.com<br><br>
+										 </p>
+                                        <div class="about-social">
+                                            <ul>
+                                                <li><a href="#" class="fa iconfont">&#xe6bd;</a></li>
+                                                <li><a href="#" class="fa iconfont">&#xe643;</a></li>
+                                                <li><a href="#" class="fa iconfont">&#xe642;</a></li>
+                                                <li><a href="#" class="fa iconfont">&#xe640;</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-3 hidden-sm">
+                    
+                    <nav id="nav" class="main-navigation hidden-xs hidden-sm">
+                        <ul class="main-menu">
+                            <li>
+                                <a class="show-1 active homebutton iconfont" href="#"><i class="fa  iconfont">&#xe645;</i>Home</a>
+                            </li>
+                            <li>
+                                <a class="show-2 aboutbutton iconfont" href="#"><i class="fa  iconfont">&#xe646;</i>About Me</a>
+                            </li>
+                            <li>
+                                <a class="show-3 projectbutton iconfont" href="#"><i class="fa  iconfont">&#xe6ed;</i>Gallery</a>
+                            </li>
+                            <li>
+                                <a class="show-5 contactbutton iconfont" href="#"><i class="fa  iconfont">&#xe647;</i>Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- SITE-FOOTER -->
+        <div class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p>Welcome  Contact  me : 157 3518 2699 </p>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- .site-footer -->
+
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+		<!-- templatemo 439 rectangle -->
+    </body>
 </html>
