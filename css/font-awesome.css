@@ -4,13 +4,13 @@
  */
 /* FONT PATH
  * -------------------------- */
-@font-face {font-family: "FontAwesome";
-  src: url('../fonts/iconfont.eot?t=1465956676'); /* IE9*/
-  src: url('../fonts/iconfont.eot?t=1465956676#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('../fonts/iconfont.woff?t=1465956676') format('woff'), /* chrome, firefox */
-  url('../fonts/iconfont.ttf?t=1465956676') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('../fonts/iconfont.svg?t=1465956676#iconfont') format('svg'); /* iOS 4.1- */
-}
+/*@font-face {font-family: "FontAwesome";
+  src: url('../fonts/iconfont.eot?t=1465956676'); 
+  src: url('../fonts/iconfont.eot?t=1465956676#iefix') format('embedded-opentype'),
+  url('../fonts/iconfont.woff?t=1465956676') format('woff'), 
+  url('../fonts/iconfont.ttf?t=1465956676') format('truetype'), 
+  url('../fonts/iconfont.svg?t=1465956676#iconfont') format('svg'); 
+}*/
 
 .iconfont {
   font-family:"iconfont" !important;
@@ -32,13 +32,13 @@
 .icon-wangyi:before { content: "\e67e"; }
 .icon-wangyi1:before { content: "\e647"; }
  
-@font-face {
+/*@font-face {
   font-family: 'FontAwesome';
   src: url('../fonts/fontawesome-webfont.eot?v=4.2.0');
   src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
-}
+}*/
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
