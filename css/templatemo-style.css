@@ -441,7 +441,7 @@ h5 {
 
 .top-header {
 	position: relative;
-	z-index: 10;
+	z-index: 1000;
 	padding: 14px 0;
 	background: rgba(0, 0, 0, 0.7);
 }
@@ -793,6 +793,24 @@ h5 {
 .site-footer a {
 	color: #5cb48e;
 }
-
-
+.aa img{
+	width: 150px;
+	position: absolute;
+	left: 0;
+	top: 38px;
+	display: none;
+}
+.bb img{
+	width: 150px;
+	position: absolute;
+	left: 0;
+	top: 38px;
+	display: none;
+}
+.aa:hover img{
+	display: block;
+}
+.bb:hover img{
+	display: block;
+}
 /* Custom */
